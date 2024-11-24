@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import { MdVisibility, MdVisibilityOff } from "react-icons/md";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { clearUser, user } from "../store/action/userAction";
 import { loginUser } from "../store/action/loggedUserAction";

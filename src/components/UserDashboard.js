@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import PlanDetails from "./PlanDetails";
 import { logoutUser } from "../store/action/loggedUserAction";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import UserTableForm from "./UserTableForm";
 import UserTableData from "./UserTableData";
 

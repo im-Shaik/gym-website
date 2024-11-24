@@ -10,9 +10,7 @@ import {
 } from "@mui/material";
 import React, { useState } from "react";
 import { MdVisibility, MdVisibilityOff } from "react-icons/md";
-import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { user } from "../store/action/userAction";
 
 function SignUp() {
   const [isVisible, setVisibleIcon] = useState(false);
